@@ -35,57 +35,57 @@ func main() {
 			}
 		}
 		for j := 1; j <= feb; j++ {
-			if findPythagTriple(j, 1, i) == true {
+			if findPythagTriple(j, 2, i) == true {
 				fmt.Printf("Feb %v, %v\n", j, i)
 			}
 		}
 		for j := 1; j <= mar; j++ {
-			if findPythagTriple(j, 1, i) == true {
+			if findPythagTriple(j, 3, i) == true {
 				fmt.Printf("Mar %v, %v\n", j, i)
 			}
 		}
 		for j := 1; j <= apr; j++ {
-			if findPythagTriple(j, 1, i) == true {
+			if findPythagTriple(j, 4, i) == true {
 				fmt.Printf("Apr %v, %v\n", j, i)
 			}
 		}
 		for j := 1; j <= may; j++ {
-			if findPythagTriple(j, 1, i) == true {
-				fmt.Printf("Mau %v, %v\n", j, i)
+			if findPythagTriple(j, 5, i) == true {
+				fmt.Printf("May %v, %v\n", j, i)
 			}
 		}
 		for j := 1; j <= jun; j++ {
-			if findPythagTriple(j, 1, i) == true {
+			if findPythagTriple(j, 6, i) == true {
 				fmt.Printf("Jun %v, %v\n", j, i)
 			}
 		}
 		for j := 1; j <= jul; j++ {
-			if findPythagTriple(j, 1, i) == true {
+			if findPythagTriple(j, 7, i) == true {
 				fmt.Printf("Jul %v, %v\n", j, i)
 			}
 		}
 		for j := 1; j <= aug; j++ {
-			if findPythagTriple(j, 1, i) == true {
+			if findPythagTriple(j, 8, i) == true {
 				fmt.Printf("Aug %v, %v\n", j, i)
 			}
 		}
 		for j := 1; j <= sep; j++ {
-			if findPythagTriple(j, 1, i) == true {
+			if findPythagTriple(j, 9, i) == true {
 				fmt.Printf("Sep %v, %v\n", j, i)
 			}
 		}
 		for j := 1; j <= oct; j++ {
-			if findPythagTriple(j, 1, i) == true {
+			if findPythagTriple(j, 10, i) == true {
 				fmt.Printf("Oct %v, %v\n", j, i)
 			}
 		}
 		for j := 1; j <= nov; j++ {
-			if findPythagTriple(j, 1, i) == true {
+			if findPythagTriple(j, 11, i) == true {
 				fmt.Printf("Nov %v, %v\n", j, i)
 			}
 		}
 		for j := 1; j <= dec; j++ {
-			if findPythagTriple(j, 1, i) == true {
+			if findPythagTriple(j, 12, i) == true {
 				fmt.Printf("Dec %v, %v\n", j, i)
 			}
 		}
